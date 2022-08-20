@@ -15,3 +15,16 @@ figure{
     width: 80%;
     margin: auto;
 }
+
+h1,h2{
+
+    text-align: center;
+    font-family: 'Courgette', cursive;
+
+}
+
+p{
+    font-family: 'Cookie', cursive;
+    font-size: 1.4em;
+    text-align: justify;
+}
