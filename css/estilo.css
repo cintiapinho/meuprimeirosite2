@@ -28,3 +28,12 @@ p{
     font-size: 1.4em;
     text-align: justify;
 }
+.video{
+    text-align: center;   
+    width: 50%;
+    float: left ;
+}
+footer{
+
+    clear: both;
+}
