@@ -1,5 +1,13 @@
+html{
+
+    scroll-behavior: smooth;
+}
 body{
     background-color: #DDA0DD;
+}
+
+header{
+    background-color: rgba(138,43,226, 0.3);
 }
 
 img{
@@ -8,6 +16,10 @@ img{
 }
 
 figure{
+    text-align: center;
+}
+
+.menu{
     text-align: center;
 }
 
@@ -34,6 +46,11 @@ p{
     float: left ;
 }
 footer{
-
+    background-color: rgba(138,43,226, 0.3);
+    padding: 1%;
     clear: both;
+}
+
+footer p{
+    text-align: center;
 }
