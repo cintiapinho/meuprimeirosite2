@@ -1,56 +1,129 @@
-html{
-
-    scroll-behavior: smooth;
+*{padding: 0;
+    margin: 0;
 }
-body{
-    background-color: #DDA0DD;
+ ol,ul{list-style: none;
+ }
+html{scroll-behavior: smooth;
+
 }
 
+body {
+    background-color:#9370DB ;
+}
 header{
-    background-color: rgba(138,43,226, 0.3);
+    background-color:#6546a1; 
+    text-align: center;
+    padding: 1%;
 }
-
-img{
-    width: 20%;
     
+img{
+    width: 10%;
 }
 
 figure{
     text-align: center;
 }
 
-.menu{
-    text-align: center;
-}
-
 .container{
     width: 80%;
-    margin: auto;
+    margin: auto
 }
 
+.menu ul li{
+    line-height:1.5 ;
+}
 h1,h2{
-
-    text-align: center;
-    font-family: 'Courgette', cursive;
-
+    font-family: 'Concert One', cursive;
+        text-align: center;
+        margin-top:  1%;
+        margin-bottom: 2%;
 }
-
 p{
-    font-family: 'Cookie', cursive;
-    font-size: 1.4em;
-    text-align: justify;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.5;
 }
 .video{
-    text-align: center;   
+    text-align: center;
     width: 50%;
-    float: left ;
+    float: left;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 footer{
-    background-color: rgba(138,43,226, 0.3);
-    padding: 1%;
     clear: both;
+    background-color:#6546a1;
+    padding-top:1%;
+    padding-bottom:2% ;
+
 }
 
+footer {
+    clear: both;
+    
+
+}
 footer p{
     text-align: center;
 }
+
+
+/* unvisited link */
+a{
+    text-decoration: none;
+    font-family: 'Concert One', cursive;
+    font-size: large;
+    font-weight: bolder;
+
+}
+
+a:link {
+    color: black
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    background-color: black;
+    padding:0.7%;
+    border-radius:20% ;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .ani{
+    width: 300px;
+    height: 800px;
+    margin-top: 2%;
+    background-color: black;
+    margin-bottom: 2%;
+    transition: width 2s;
+  }
+
+  .ani:hover{
+    width: 800px;
+  }
+  
